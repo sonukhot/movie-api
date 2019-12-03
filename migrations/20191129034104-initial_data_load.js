@@ -193,7 +193,7 @@ module.exports = {
       { name: "Jerome Robbins" }
     ]
     )
-    await queryInterface.bulkInsert('genres', [
+    return queryInterface.bulkInsert('genres', [
 
       { name: "Drama" },
       { name: "Science fiction" },
@@ -216,8 +216,7 @@ module.exports = {
       { name: "Thriller" }
     ]
     )
-    await queryInterface.bulkInsert('movie_director', [{ moviesId: 1, directorsId: 1 }])
-    return queryInterface.bulkInsert('movie_genres', [{ moviesId: 1, genresId: 1 }])
+
 
 
   },
@@ -231,7 +230,7 @@ module.exports = {
       return queryInterface.dropTable('users');
     */
     await queryInterface.bulkDelete('movie_genres')
-    await queryInterface.bulkDelete('movie_director')
+    await queryInterface.bulkDelete('movie_directors')
     await queryInterface.bulkDelete('movies')
     await queryInterface.bulkDelete('directors')
     return queryInterface.bulkDelete('genres')

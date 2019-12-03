@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -31,7 +31,7 @@ module.exports = {
       deletedAt: { type: Sequelize.DATE }
     })
 
-    await queryInterface.createTable('movie_director', {
+    await queryInterface.createTable('movie_directors', {
       id: { type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true },
       moviesId: { type: Sequelize.INTEGER, reference: { model: 'movies', key: 'id' } },
       directorsId: { type: Sequelize.INTEGER, reference: { model: 'directors', key: 'id' } },
@@ -53,7 +53,7 @@ module.exports = {
 
   down: async (queryInterface) => {
     await queryInterface.dropTable('movie_genres')
-    await queryInterface.dropTable('movie_director')
+    await queryInterface.dropTable('movie_directors')
     await queryInterface.dropTable('directors')
     await queryInterface.dropTable('movies')
     return queryInterface.dropTable('genres')

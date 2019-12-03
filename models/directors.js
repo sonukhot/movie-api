@@ -5,9 +5,6 @@ const directors = (sequelize, Sequelize) => {
     }, { paranoid: true }
     )
 
-    director.associate = models => {
-        director.belongsToMany(models.movies, { through: 'movie_director' );
-    };
     return director
 }
 module.exports = directors
