@@ -100,13 +100,13 @@ app.delete('/movie/:identifier', async (request, response) => {
     })
 
     // If everything goes well respond with the movie
-    return response.status(200).send('moviee deleted successfully')
+    return response.status(200).send('movie deleted successfully')
 })
 app.use(bodyParser.json())
 app.post('/movie', async (request, response) => {
     const { title, director, releaseDate, rated, runTime, genre } = request.body
     if (!title || !director || !releaseDate || !rated || !runTime || !genre) {
-        response.status(400).send('The following attributes are required: id, title, director, releaseDate, rated, runTime, genre')
+        response.status(400).send('The following attributes are required: title, director, releaseDate, rated, runTime, genre')
     }
 
     const existingMovie = await models.movie.findOne({ where: { title: title } })
@@ -131,11 +131,43 @@ app.post('/movie', async (request, response) => {
         movie.setGenre(genreIds)
         movie.setDirector(directorIds)
         movie.save()
-        response.status(201).send(movie)
+        response.status(200).send('movie updated sucessfully')
     }
     response.status(400).send('Movie already exists')
 })
+/*app.use(bodyParser.json())
+app.patch('/movie', async (request, response) => {
+    const { title, director, releaseDate, rated, runTime, genre } = request.body
+    if (!title || !director || !releaseDate || !rated || !runTime || !genre) {
+        response.status(400).send('The following attributes are required: id, title, director, releaseDate, rated, runTime, genre')
+    }
 
+    const existingMovie = await models.movie.findOne({ where: { title: title } })
+    if (!existingMovie) {
+        const movie = await models.movie.create({ title: title, rated: rated, runTime: runTime, releaseDate: releaseDate })
+        const genreArr = genre.split(',')
+        const genreIds = []
+
+        for (var i = 0; i < genreArr.length; i++) {
+            const genre = await models.genre.findOrUpdate({ where: { name: genreArr[i] } })
+            genreIds.push(genre.id)
+        }
+
+        const directorArr = director.split(',')
+        const directorIds = []
+
+        for (var i = 0; i < directorArr.length; i++) {
+            const director = await models.director.findOrUpdate({ where: { name: directorArr[i] } })
+            directorIds.push(director.id)
+        }
+
+        movie.setGenre(genreIds)
+        movie.setDirector(directorIds)
+        movie.save()
+        response.status(201).send(movie)
+    }
+    response.status(400).send('Movie not updated')
+})*/
 app.all('*', (request, response) => {
     response.status(404).send('Sorry Mario but the Princess is in castle.')
 })
