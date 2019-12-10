@@ -5,110 +5,135 @@ const Op = require('Sequelize').Op
 
 const app = express()
 
-app.get('/movies', async (request, response) => {
-    const movies = await models.movies.findAll({
+app.get('/movie', async (request, response) => {
+    const movie = await models.movie.findAll({
         include: [{
-            model: models.genres,
-            as: 'genreMovies'
+            model: models.genre,
+            as: 'genre'
         }, {
-            model: models.directors,
-            as: 'directorMovies'
+            model: models.director,
+            as: 'director'
         }]
     })
-    response.send(movies)
+    response.send(movie)
 })
 
-app.get('/movies/:identifier', async (request, response) => {
+app.get('/movie/:identifier', async (request, response) => {
     const { identifier } = request.params
-    const matchingMovies = await models.movies.findAll({
+    const matchingmovie = await models.movie.findAll({
         where: {
             [Op.or]: [{ id: identifier }]
         },
         include: [{
-            model: models.genres,
-            as: 'genreMovies'
+            model: models.genre,
+            as: 'genre'
         }, {
-            model: models.directors,
-            as: 'directorMovies'
+            model: models.director,
+            as: 'director'
         }]
     })
 
-    if (matchingMovies.length) {
-        response.send(matchingMovies)
+    if (matchingmovie.length) {
+        response.send(matchingmovie)
     } else {
         response.sendStatus(404)
     }
 })
 
-app.get('/directors/:identifier', async (request, response) => {
+app.get('/director/:identifier', async (request, response) => {
     const { identifier } = request.params
-    const matchingDirectors = await models.directors.findAll({
+    const matchingdirector = await models.director.findAll({
         where: {
             [Op.or]: [{ id: identifier }]
         },
         include: [{
-            model: models.movies,
-            as: 'directorMovies'
+            model: models.movie,
+            as: 'directormovie'
         }]
     })
 
-    if (matchingDirectors.length) {
-        response.send(matchingDirectors)
+    if (matchingdirector.length) {
+        response.send(matchingdirector)
     } else {
         response.sendStatus(404)
     }
 })
-app.get('/genres/:identifier', async (request, response) => {
+app.get('/genre/:identifier', async (request, response) => {
     const { identifier } = request.params
-    const matchingGenres = await models.genres.findAll({
+    const matchinggenre = await models.genre.findAll({
         where: {
             [Op.or]: [{ id: identifier }]
         },
         include: [{
-            model: models.movies,
-            as: 'genreMovies'
+            model: models.movie,
+            as: 'genremovie'
         }]
     })
 
-    if (matchingGenres.length) {
-        response.send(matchingGenres)
+    if (matchinggenre.length) {
+        response.send(matchinggenre)
     } else {
         response.sendStatus(404)
     }
+})
+app.delete('/movie/:identifier', async (request, response) => {
+    const { identifier } = request.params
+    const matchingmovie = await models.movie.findOne({
+        where: {
+            [Op.or]: [{ id: identifier }]
+        },
+        include: [{
+            model: models.genre,
+            as: 'genre'
+        }, {
+            model: models.director,
+            as: 'director'
+        }]
+    })
+
+    const movieGenres = matchingmovie.getGenre()
+    const movieDirectors = matchingmovie.getDirector()
+    matchingmovie.removeGenre(movieGenres)
+    matchingmovie.removeDirector(movieDirectors)
+    await models.movie.destroy({
+        where: { id: identifier }
+    })
+
+    // If everything goes well respond with the movie
+    return response.status(200).send('moviee deleted successfully')
 })
 app.use(bodyParser.json())
-app.post('/movies', async (request, response) => {
-    const { title, directors, releaseDate, rated, runTime, genres } = request.body
-    if (!title || !directors || !releaseDate || !rated || !runTime || !genres) {
-        response.status(400).send('The following attributes are required: id, title, directors, releaseDate, rated, runTime, genre')
+app.post('/movie', async (request, response) => {
+    const { title, director, releaseDate, rated, runTime, genre } = request.body
+    if (!title || !director || !releaseDate || !rated || !runTime || !genre) {
+        response.status(400).send('The following attributes are required: id, title, director, releaseDate, rated, runTime, genre')
     }
 
-    const existingMovie = await models.movies.findOne({ where: { title: title } })
+    const existingMovie = await models.movie.findOne({ where: { title: title } })
     if (!existingMovie) {
-        movie = await models.movies.create({ title: title, rated: rated, runTime: runTime, releaseDate: releaseDate })
-        const genreArr = genres.split(',')
+        const movie = await models.movie.create({ title: title, rated: rated, runTime: runTime, releaseDate: releaseDate })
+        const genreArr = genre.split(',')
         const genreIds = []
-        var i;
-        for (i = 0; i < genreArr.length; i++) {
-            genreName = genreArr[i]
-            const genre = await models.genres.findOrCreate({ where: { name: genreName } })
+
+        for (var i = 0; i < genreArr.length; i++) {
+            const genre = await models.genre.findOrCreate({ where: { name: genreArr[i] } })
             genreIds.push(genre.id)
         }
 
-        const directorArr = directors.split(',')
+        const directorArr = director.split(',')
         const directorIds = []
-        var i;
-        for (i = 0; i < directorArr.length; i++) {
-            directorName = directorArr[i]
-            const director = await models.directors.findOrCreate({ where: { name: directorName } })
+
+        for (var i = 0; i < directorArr.length; i++) {
+            const director = await models.director.findOrCreate({ where: { name: directorArr[i] } })
             directorIds.push(director.id)
         }
 
-        movie.setDirectors(directorIds)
+        movie.setGenre(genreIds)
+        movie.setDirector(directorIds)
         movie.save()
         response.status(201).send(movie)
     }
-    response.status(400).send("")
+    response.status(400).send('Movie already exists')
 })
 
 app.all('*', (request, response) => {

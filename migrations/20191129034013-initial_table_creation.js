@@ -31,19 +31,19 @@ module.exports = {
       deletedAt: { type: Sequelize.DATE }
     })
 
-    await queryInterface.createTable('movie_directors', {
+    await queryInterface.createTable('movie_director', {
       id: { type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true },
-      moviesId: { type: Sequelize.INTEGER, reference: { model: 'movies', key: 'id' } },
-      directorsId: { type: Sequelize.INTEGER, reference: { model: 'directors', key: 'id' } },
+      movieId: { type: Sequelize.INTEGER, reference: { model: 'movie', key: 'id' } },
+      directorId: { type: Sequelize.INTEGER, reference: { model: 'director', key: 'id' } },
       createdAt: { type: Sequelize.DATE, defaultValue: Sequelize.literal('CURRENT_TIMESTAMP') },
       updatedAt: { type: Sequelize.DATE, defaultValue: Sequelize.literal('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP') },
       deletedAt: { type: Sequelize.DATE }
     })
 
-    return queryInterface.createTable('movie_genres', {
+    return queryInterface.createTable('movie_genre', {
       id: { type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true },
-      moviesId: { type: Sequelize.INTEGER, reference: { model: 'movies', key: 'id' } },
-      genresId: { type: Sequelize.INTEGER, reference: { model: 'genres', key: 'id' } },
+      movieId: { type: Sequelize.INTEGER, reference: { model: 'movie', key: 'id' } },
+      genreId: { type: Sequelize.INTEGER, reference: { model: 'genre', key: 'id' } },
       createdAt: { type: Sequelize.DATE, defaultValue: Sequelize.literal('CURRENT_TIMESTAMP') },
       updatedAt: { type: Sequelize.DATE, defaultValue: Sequelize.literal('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP') },
       deletedAt: { type: Sequelize.DATE }
@@ -52,8 +52,8 @@ module.exports = {
   },
 
   down: async (queryInterface) => {
-    await queryInterface.dropTable('movie_genres')
-    await queryInterface.dropTable('movie_directors')
+    await queryInterface.dropTable('movie_genre')
+    await queryInterface.dropTable('movie_director')
     await queryInterface.dropTable('directors')
     await queryInterface.dropTable('movies')
     return queryInterface.dropTable('genres')

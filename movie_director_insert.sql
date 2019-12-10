@@ -1,574 +1,574 @@
-use movies;
-insert into movies.movie_directors
-    (moviesId, directorsId)
+use movie;
+insert into movie.movie_director
+    (movieId, directorId)
 values
     (( select id
-        from movies
-        where movies.title = "12 Angry Men" ), ( select id
-        from directors
+        from movie
+        where movie.title = "12 Angry Men" ), ( select id
+        from director
         where name = "Sidney Lumet" )),
     (( select id
-        from movies
-        where movies.title = "2001: A Space Odyssey" ), ( select id
-        from directors
+        from movie
+        where movie.title = "2001: A Space Odyssey" ), ( select id
+        from director
         where name = "Stanley Kubrick" )),
     (( select id
-        from movies
-        where movies.title = "A Clockwork Orange" ), ( select id
-        from directors
+        from movie
+        where movie.title = "A Clockwork Orange" ), ( select id
+        from director
         where name = "Stanley Kubrick" )),
     (( select id
-        from movies
-        where movies.title = "A Night At The Opera" ), ( select id
-        from directors
+        from movie
+        where movie.title = "A Night At The Opera" ), ( select id
+        from director
         where name = "Sam Wood" )),
     (( select id
-        from movies
-        where movies.title = "A Streetcar Named Desire" ), ( select id
-        from directors
+        from movie
+        where movie.title = "A Streetcar Named Desire" ), ( select id
+        from director
         where name = "Elia Kazan" )),
     (( select id
-        from movies
-        where movies.title = "All About Eve" ), ( select id
-        from directors
+        from movie
+        where movie.title = "All About Eve" ), ( select id
+        from director
         where name = "Joseph L. Mankiewicz" )),
     (( select id
-        from movies
-        where movies.title = "All The President's Men" ), ( select id
-        from directors
+        from movie
+        where movie.title = "All The President's Men" ), ( select id
+        from director
         where name = "Alan J. Pakula" )),
     (( select id
-        from movies
-        where movies.title = "American Graffiti" ), ( select id
-        from directors
+        from movie
+        where movie.title = "American Graffiti" ), ( select id
+        from director
         where name = "George Lucas" )),
     (( select id
-        from movies
-        where movies.title = "Annie Hall" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Annie Hall" ), ( select id
+        from director
         where name = "Woody Allen" )),
     (( select id
-        from movies
-        where movies.title = "Apocalypse Now" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Apocalypse Now" ), ( select id
+        from director
         where name = "Francis Ford Coppola" )),
     (( select id
-        from movies
-        where movies.title = "Ben-Hur" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Ben-Hur" ), ( select id
+        from director
         where name = "William Wyler" )),
     (( select id
-        from movies
-        where movies.title = "Blade Runner" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Blade Runner" ), ( select id
+        from director
         where name = "Ridley Scott" )),
     (( select id
-        from movies
-        where movies.title = "Bonnie And Clyde" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Bonnie And Clyde" ), ( select id
+        from director
         where name = "Arthur Penn" )),
     (( select id
-        from movies
-        where movies.title = "Bringing Up Baby" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Bringing Up Baby" ), ( select id
+        from director
         where name = "Howard Hawks" )),
     (( select id
-        from movies
-        where movies.title = "Butch Cassidy And The Sundance Kid" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Butch Cassidy And The Sundance Kid" ), ( select id
+        from director
         where name = "George Roy Hill" )),
     (( select id
-        from movies
-        where movies.title = "Cabaret" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Cabaret" ), ( select id
+        from director
         where name = "Bob Fosse" )),
     (( select id
-        from movies
-        where movies.title = "Casablanca" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Casablanca" ), ( select id
+        from director
         where name = "Michael Curtiz" )),
     (( select id
-        from movies
-        where movies.title = "Chinatown" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Chinatown" ), ( select id
+        from director
         where name = "Roman Polanski" )),
     (( select id
-        from movies
-        where movies.title = "Citizen Kane" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Citizen Kane" ), ( select id
+        from director
         where name = "Orson Welles" )),
     (( select id
-        from movies
-        where movies.title = "City Lights" ), ( select id
-        from directors
+        from movie
+        where movie.title = "City Lights" ), ( select id
+        from director
         where name = "Charles Chaplin" )),
     (( select id
-        from movies
-        where movies.title = "Do The Right Thing" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Do The Right Thing" ), ( select id
+        from director
         where name = "Spike Lee" )),
     (( select id
-        from movies
-        where movies.title = "Double Indemnity" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Double Indemnity" ), ( select id
+        from director
         where name = "Billy Wilder" )),
     (( select id
-        from movies
-        where movies.title = "Dr. Strangelove" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Dr. Strangelove" ), ( select id
+        from director
         where name = "Stanley Kubrick" )),
     (( select id
-        from movies
-        where movies.title = "Duck Soup" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Duck Soup" ), ( select id
+        from director
         where name = "Leo McCarey" )),
     (( select id
-        from movies
-        where movies.title = "E.T" ), ( select id
-        from directors
+        from movie
+        where movie.title = "E.T" ), ( select id
+        from director
         where name = "Steven Spielberg" )),
     (( select id
-        from movies
-        where movies.title = "Easy Rider" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Easy Rider" ), ( select id
+        from director
         where name = "Dennis Hopper" )),
     (( select id
-        from movies
-        where movies.title = "Forrest Gump" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Forrest Gump" ), ( select id
+        from director
         where name = "Robert Zemeckis" )),
     (( select id
-        from movies
-        where movies.title = "Gone With The Wind" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Gone With The Wind" ), ( select id
+        from director
         where name = "Victor Fleming" )),
     (( select id
-        from movies
-        where movies.title = "Gone With The Wind" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Gone With The Wind" ), ( select id
+        from director
         where name = "Sam Wood" )),
     (( select id
-        from movies
-        where movies.title = "Gone With The Wind" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Gone With The Wind" ), ( select id
+        from director
         where name = "George Cukor" )),
     (( select id
-        from movies
-        where movies.title = "Gone With The Wind" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Gone With The Wind" ), ( select id
+        from director
         where name = "Chester Franklin" )),
     (( select id
-        from movies
-        where movies.title = "Gone With The Wind" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Gone With The Wind" ), ( select id
+        from director
         where name = "James Fitzpatrick" )),
     (( select id
-        from movies
-        where movies.title = "Goodfellas" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Goodfellas" ), ( select id
+        from director
         where name = "Martin Scorsese" )),
     (( select id
-        from movies
-        where movies.title = "High Noon" ), ( select id
-        from directors
+        from movie
+        where movie.title = "High Noon" ), ( select id
+        from director
         where name = "Fred Zinnemann" )),
     (( select id
-        from movies
-        where movies.title = "In The Heat Of The Night" ), ( select id
-        from directors
+        from movie
+        where movie.title = "In The Heat Of The Night" ), ( select id
+        from director
         where name = "Norman Jewison" )),
     (( select id
-        from movies
-        where movies.title = "Intolerance" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Intolerance" ), ( select id
+        from director
         where name = "D. W. Griffith" )),
     (( select id
-        from movies
-        where movies.title = "It Happened One Night" ), ( select id
-        from directors
+        from movie
+        where movie.title = "It Happened One Night" ), ( select id
+        from director
         where name = "Frank Capra" )),
     (( select id
-        from movies
-        where movies.title = "It'S A Wonderful Life" ), ( select id
-        from directors
+        from movie
+        where movie.title = "It'S A Wonderful Life" ), ( select id
+        from director
         where name = "Frank Capra" )),
     (( select id
-        from movies
-        where movies.title = "Jaws" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Jaws" ), ( select id
+        from director
         where name = "Steven Spielberg" )),
     (( select id
-        from movies
-        where movies.title = "King Kong" ), ( select id
-        from directors
+        from movie
+        where movie.title = "King Kong" ), ( select id
+        from director
         where name = "Merian C. Cooper" )),
     (( select id
-        from movies
-        where movies.title = "King Kong" ), ( select id
-        from directors
+        from movie
+        where movie.title = "King Kong" ), ( select id
+        from director
         where name = "Ernest B. Schoedsack" )),
     (( select id
-        from movies
-        where movies.title = "Lawrence Of Arabia" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Lawrence Of Arabia" ), ( select id
+        from director
         where name = "David Lean" )),
     (( select id
-        from movies
-        where movies.title = "M*A*S*H" ), ( select id
-        from directors
+        from movie
+        where movie.title = "M*A*S*H" ), ( select id
+        from director
         where name = "Robert Altman" )),
     (( select id
-        from movies
-        where movies.title = "Midnight Cowboy" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Midnight Cowboy" ), ( select id
+        from director
         where name = "John Schlesinger" )),
     (( select id
-        from movies
-        where movies.title = "Modern Times" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Modern Times" ), ( select id
+        from director
         where name = "Charles Chaplin" )),
     (( select id
-        from movies
-        where movies.title = "Mr. Smith Goes to Washington" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Mr. Smith Goes to Washington" ), ( select id
+        from director
         where name = "Frank Capra" )),
     (( select id
-        from movies
-        where movies.title = "Nashville" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Nashville" ), ( select id
+        from director
         where name = "Robert Altman" )),
     (( select id
-        from movies
-        where movies.title = "Network" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Network" ), ( select id
+        from director
         where name = "Sidney Lumet" )),
     (( select id
-        from movies
-        where movies.title = "North By Northwest" ), ( select id
-        from directors
+        from movie
+        where movie.title = "North By Northwest" ), ( select id
+        from director
         where name = "Alfred Hitchcock" )),
     (( select id
-        from movies
-        where movies.title = "On The Waterfront" ), ( select id
-        from directors
+        from movie
+        where movie.title = "On The Waterfront" ), ( select id
+        from director
         where name = "Elia Kazan" )),
     (( select id
-        from movies
-        where movies.title = "One Flew Over The Cuckoo's Nest" ), ( select id
-        from directors
+        from movie
+        where movie.title = "One Flew Over The Cuckoo's Nest" ), ( select id
+        from director
         where name = "Milos Forman" )),
     (( select id
-        from movies
-        where movies.title = "Platoon" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Platoon" ), ( select id
+        from director
         where name = "Oliver Stone" )),
     (( select id
-        from movies
-        where movies.title = "Psycho" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Psycho" ), ( select id
+        from director
         where name = "Alfred Hitchcock" )),
     (( select id
-        from movies
-        where movies.title = "Pulp Fiction" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Pulp Fiction" ), ( select id
+        from director
         where name = "Quentin Tarantino" )),
     (( select id
-        from movies
-        where movies.title = "Raging Bull" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Raging Bull" ), ( select id
+        from director
         where name = "Martin Scorsese" )),
     (( select id
-        from movies
-        where movies.title = "Raiders Of The Lost Ark" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Raiders Of The Lost Ark" ), ( select id
+        from director
         where name = "Steven Spielberg" )),
     (( select id
-        from movies
-        where movies.title = "Rear Window" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Rear Window" ), ( select id
+        from director
         where name = "Alfred Hitchcock" )),
     (( select id
-        from movies
-        where movies.title = "Rocky" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Rocky" ), ( select id
+        from director
         where name = "John G. Avildsen" )),
     (( select id
-        from movies
-        where movies.title = "Saving Private Ryan" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Saving Private Ryan" ), ( select id
+        from director
         where name = "Steven Spielberg" )),
     (( select id
-        from movies
-        where movies.title = "Schindler's List" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Schindler's List" ), ( select id
+        from director
         where name = "Steven Spielberg" )),
     (( select id
-        from movies
-        where movies.title = "Shane" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Shane" ), ( select id
+        from director
         where name = "George Stevens" )),
     (( select id
-        from movies
-        where movies.title = "Singin' In The Rain" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Singin' In The Rain" ), ( select id
+        from director
         where name = "Gene Kelly" )),
     (( select id
-        from movies
-        where movies.title = "Singin' In The Rain" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Singin' In The Rain" ), ( select id
+        from director
         where name = "Stanley Donen" )),
     (( select id
-        from movies
-        where movies.title = "Snow White And The Seven Dwarfs" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Snow White And The Seven Dwarfs" ), ( select id
+        from director
         where name = "William Cottrell" )),
     (( select id
-        from movies
-        where movies.title = "Snow White And The Seven Dwarfs" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Snow White And The Seven Dwarfs" ), ( select id
+        from director
         where name = "David Hand" )),
     (( select id
-        from movies
-        where movies.title = "Snow White And The Seven Dwarfs" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Snow White And The Seven Dwarfs" ), ( select id
+        from director
         where name = "Wilfred Jackson" )),
     (( select id
-        from movies
-        where movies.title = "Snow White And The Seven Dwarfs" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Snow White And The Seven Dwarfs" ), ( select id
+        from director
         where name = "Larry Morey" )),
     (( select id
-        from movies
-        where movies.title = "Snow White And The Seven Dwarfs" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Snow White And The Seven Dwarfs" ), ( select id
+        from director
         where name = "Perce Pearce" )),
     (( select id
-        from movies
-        where movies.title = "Some Like It Hot" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Some Like It Hot" ), ( select id
+        from director
         where name = "Billy Wilder" )),
     (( select id
-        from movies
-        where movies.title = "Sophie'S Choice" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Sophie'S Choice" ), ( select id
+        from director
         where name = "Alan J. Pakula" )),
     (( select id
-        from movies
-        where movies.title = "Spartacus" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Spartacus" ), ( select id
+        from director
         where name = "Stanley Kubrick" )),
     (( select id
-        from movies
-        where movies.title = "Spartacus" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Spartacus" ), ( select id
+        from director
         where name = "Anthony Mann" )),
     (( select id
-        from movies
-        where movies.title = "Star Wars" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Star Wars" ), ( select id
+        from director
         where name = "George Lucas" )),
     (( select id
-        from movies
-        where movies.title = "Sullivan's Travels" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Sullivan's Travels" ), ( select id
+        from director
         where name = "Preston Sturges" )),
     (( select id
-        from movies
-        where movies.title = "Sunrise" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Sunrise" ), ( select id
+        from director
         where name = "F.W. Murnau" )),
     (( select id
-        from movies
-        where movies.title = "Sunset Blvd" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Sunset Blvd" ), ( select id
+        from director
         where name = "Billy Wilder" )),
     (( select id
-        from movies
-        where movies.title = "Swing Time" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Swing Time" ), ( select id
+        from director
         where name = "George Stevens" )),
     (( select id
-        from movies
-        where movies.title = "Taxi Driver" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Taxi Driver" ), ( select id
+        from director
         where name = "Martin Scorsese" )),
     (( select id
-        from movies
-        where movies.title = "The African Queen" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The African Queen" ), ( select id
+        from director
         where name = "John Huston" )),
     (( select id
-        from movies
-        where movies.title = "The Apartment" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Apartment" ), ( select id
+        from director
         where name = "Billy Wilder" )),
     (( select id
-        from movies
-        where movies.title = "The Best Years Of Our Lives" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Best Years Of Our Lives" ), ( select id
+        from director
         where name = "William Wyler" )),
     (( select id
-        from movies
-        where movies.title = "The Bridge On The River Kwai" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Bridge On The River Kwai" ), ( select id
+        from director
         where name = "David Lean" )),
     (( select id
-        from movies
-        where movies.title = "The Deer Hunter" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Deer Hunter" ), ( select id
+        from director
         where name = "Michael Cimino" )),
     (( select id
-        from movies
-        where movies.title = "The French Connection" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The French Connection" ), ( select id
+        from director
         where name = "William Friedkin" )),
     (( select id
-        from movies
-        where movies.title = "The General" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The General" ), ( select id
+        from director
         where name = "Buster Keaton" )),
     (( select id
-        from movies
-        where movies.title = "The General" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The General" ), ( select id
+        from director
         where name = "Clyde Bruckman" )),
     (( select id
-        from movies
-        where movies.title = "The Godfather Part Ii" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Godfather Part Ii" ), ( select id
+        from director
         where name = "Francis Ford Coppola" )),
     (( select id
-        from movies
-        where movies.title = "The Godfather" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Godfather" ), ( select id
+        from director
         where name = "Francis Ford Coppola" )),
     (( select id
-        from movies
-        where movies.title = "The Gold Rush" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Gold Rush" ), ( select id
+        from director
         where name = "Charles Chaplin" )),
     (( select id
-        from movies
-        where movies.title = "The Graduate" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Graduate" ), ( select id
+        from director
         where name = "Mike Nichols" )),
     (( select id
-        from movies
-        where movies.title = "The Grapes Of Wrath" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Grapes Of Wrath" ), ( select id
+        from director
         where name = "John Ford" )),
     (( select id
-        from movies
-        where movies.title = "The Last Picture Show" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Last Picture Show" ), ( select id
+        from director
         where name = "Peter Bogdanovich" )),
     (( select id
-        from movies
-        where movies.title = "The Lord Of The Rings: The Fellowship Of The Ring" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Lord Of The Rings: The Fellowship Of The Ring" ), ( select id
+        from director
         where name = "Peter Jackson" )),
     (( select id
-        from movies
-        where movies.title = "The Maltese Falcon" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Maltese Falcon" ), ( select id
+        from director
         where name = "John Huston" )),
     (( select id
-        from movies
-        where movies.title = "The Philadelphia Story" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Philadelphia Story" ), ( select id
+        from director
         where name = "George Cukor" )),
     (( select id
-        from movies
-        where movies.title = "The Searchers" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Searchers" ), ( select id
+        from director
         where name = "John Ford" )),
     (( select id
-        from movies
-        where movies.title = "The Shawshank Redemption" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Shawshank Redemption" ), ( select id
+        from director
         where name = "Frank Darabont" )),
     (( select id
-        from movies
-        where movies.title = "The Silence Of The Lambs" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Silence Of The Lambs" ), ( select id
+        from director
         where name = "Jonathan Demme" )),
     (( select id
-        from movies
-        where movies.title = "The Sixth Sense" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Sixth Sense" ), ( select id
+        from director
         where name = "M. Night Shyamalan" )),
     (( select id
-        from movies
-        where movies.title = "The Sound Of Music" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Sound Of Music" ), ( select id
+        from director
         where name = "Robert Wise" )),
     (( select id
-        from movies
-        where movies.title = "The Treasure Of The Sierra Madre" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Treasure Of The Sierra Madre" ), ( select id
+        from director
         where name = "John Huston" )),
     (( select id
-        from movies
-        where movies.title = "The Wild Bunch" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Wild Bunch" ), ( select id
+        from director
         where name = "Sam Peckinpah" )),
     (( select id
-        from movies
-        where movies.title = "The Wizard Of Oz" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Wizard Of Oz" ), ( select id
+        from director
         where name = "Victor Fleming" )),
     (( select id
-        from movies
-        where movies.title = "The Wizard Of Oz" ), ( select id
-        from directors
+        from movie
+        where movie.title = "The Wizard Of Oz" ), ( select id
+        from director
         where name = "King Vidor" )),
     (( select id
-        from movies
-        where movies.title = "Titanic" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Titanic" ), ( select id
+        from director
         where name = "James Cameron" )),
     (( select id
-        from movies
-        where movies.title = "To Kill A Mockingbird" ), ( select id
-        from directors
+        from movie
+        where movie.title = "To Kill A Mockingbird" ), ( select id
+        from director
         where name = "Robert Mulligan" )),
     (( select id
-        from movies
-        where movies.title = "Tootsie" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Tootsie" ), ( select id
+        from director
         where name = "Sydney Pollack" )),
     (( select id
-        from movies
-        where movies.title = "Toy Story" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Toy Story" ), ( select id
+        from director
         where name = "John Lasseter" )),
     (( select id
-        from movies
-        where movies.title = "Unforgiven" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Unforgiven" ), ( select id
+        from director
         where name = "Clint Eastwood" )),
     (( select id
-        from movies
-        where movies.title = "Vertigo" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Vertigo" ), ( select id
+        from director
         where name = "Alfred Hitchcock" )),
     (( select id
-        from movies
-        where movies.title = "West Side Story" ), ( select id
-        from directors
+        from movie
+        where movie.title = "West Side Story" ), ( select id
+        from director
         where name = "Robert Wise" )),
     (( select id
-        from movies
-        where movies.title = "West Side Story" ), ( select id
-        from directors
+        from movie
+        where movie.title = "West Side Story" ), ( select id
+        from director
         where name = "Jerome Robbins" )),
     (( select id
-        from movies
-        where movies.title = "Who\'s Afraid Of Virginia Woolf?" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Who\'s Afraid Of Virginia Woolf?" ), ( select id
+        from director
         where name = "Mike Nichols" )),
     (( select id
-        from movies
-        where movies.title = "Yankee Doodle Dandy" ), ( select id
-        from directors
+        from movie
+        where movie.title = "Yankee Doodle Dandy" ), ( select id
+        from director
         where name = "Michael Curtiz"));																									

@@ -1,802 +1,802 @@
 [
     {
         "title": "12 Angry Men",
-        "directors": "Sidney Lumet",
+        "director": "Sidney Lumet",
         "releaseDate": "4/10/1957",
         "rated": "Not Rated",
         "runTime": "95 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "2001: A Space Odyssey",
-        "directors": "Stanley Kubrick",
+        "director": "Stanley Kubrick",
         "releaseDate": "4/3/1968",
         "rated": "G",
         "runTime": "140 mins",
-        "genres": "Science fiction"
+        "genre": "Science fiction"
     },
     {
         "title": "A Clockwork Orange",
-        "directors": "Stanley Kubrick",
+        "director": "Stanley Kubrick",
         "releaseDate": "12/19/1971",
         "rated": "R",
         "runTime": "137 mins",
-        "genres": "Drama, Fantasy"
+        "genre": "Drama, Fantasy"
     },
     {
         "title": "A Night At The Opera",
-        "directors": "Sam Wood",
+        "director": "Sam Wood",
         "releaseDate": "11/15/1935",
         "rated": "Passed",
         "runTime": "90 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "A Streetcar Named Desire",
-        "directors": "Elia Kazan",
+        "director": "Elia Kazan",
         "releaseDate": "3/22/1952",
         "rated": "PG",
         "runTime": "125 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "All About Eve",
-        "directors": "Joseph L. Mankiewicz",
+        "director": "Joseph L. Mankiewicz",
         "releaseDate": "10/27/1950",
         "rated": "Passed",
         "runTime": "138 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "All The President's Men",
-        "directors": "Alan J. Pakula",
+        "director": "Alan J. Pakula",
         "releaseDate": "4/1/1976",
         "rated": "PG",
         "runTime": "136 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "American Graffiti",
-        "directors": "George Lucas",
+        "director": "George Lucas",
         "releaseDate": "8/11/1973",
         "rated": "PG",
         "runTime": "110 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "Annie Hall",
-        "directors": "Woody Allen",
+        "director": "Woody Allen",
         "releaseDate": "4/20/1977",
         "rated": "PG",
         "runTime": "94 mins",
-        "genres": "Romantic comedy"
+        "genre": "Romantic comedy"
     },
     {
         "title": "Apocalypse Now",
-        "directors": "Francis Ford Coppola",
+        "director": "Francis Ford Coppola",
         "releaseDate": "8/15/1979",
         "rated": "R",
         "runTime": "157 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Ben-Hur",
-        "directors": "William Wyler",
+        "director": "William Wyler",
         "releaseDate": "1/29/1960",
         "rated": "G",
         "runTime": "212 mins",
-        "genres": "Epic"
+        "genre": "Epic"
     },
     {
         "title": "Blade Runner",
-        "directors": "Ridley Scott",
+        "director": "Ridley Scott",
         "releaseDate": "6/25/1982",
         "rated": "R",
         "runTime": "124 mins",
-        "genres": "Science fiction"
+        "genre": "Science fiction"
     },
     {
         "title": "Bonnie And Clyde",
-        "directors": "Arthur Penn",
+        "director": "Arthur Penn",
         "releaseDate": "8/13/1967",
         "rated": "R",
         "runTime": "111 mins",
-        "genres": "Biography, Drama"
+        "genre": "Biography, Drama"
     },
     {
         "title": "Bringing Up Baby",
-        "directors": "Howard Hawks",
+        "director": "Howard Hawks",
         "releaseDate": "2/18/1938",
         "rated": "Not Rated",
         "runTime": "102 mins",
-        "genres": "Screwball comedy"
+        "genre": "Screwball comedy"
     },
     {
         "title": "Butch Cassidy And The Sundance Kid",
-        "directors": "George Roy Hill",
+        "director": "George Roy Hill",
         "releaseDate": "10/24/1969",
         "rated": "PG",
         "runTime": "112 mins",
-        "genres": "Comedy-drama, Western"
+        "genre": "Comedy-drama, Western"
     },
     {
         "title": "Cabaret",
-        "directors": "Bob Fosse",
+        "director": "Bob Fosse",
         "releaseDate": "2/13/1972",
         "rated": "PG",
         "runTime": "124 mins",
-        "genres": "Drama, Musical"
+        "genre": "Drama, Musical"
     },
     {
         "title": "Casablanca",
-        "directors": "Michael Curtiz",
+        "director": "Michael Curtiz",
         "releaseDate": "1/23/1943",
         "rated": "PG",
         "runTime": "103 mins",
-        "genres": "Romance"
+        "genre": "Romance"
     },
     {
         "title": "Chinatown",
-        "directors": "Roman Polanski",
+        "director": "Roman Polanski",
         "releaseDate": "6/20/1974",
         "rated": "R",
         "runTime": "132 mins",
-        "genres": "Mystery, Romance"
+        "genre": "Mystery, Romance"
     },
     {
         "title": "Citizen Kane",
-        "directors": "Orson Welles",
+        "director": "Orson Welles",
         "releaseDate": "9/5/1941",
         "rated": "PG",
         "runTime": "119 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "City Lights",
-        "directors": "Charles Chaplin",
+        "director": "Charles Chaplin",
         "releaseDate": "3/7/1931",
         "rated": "G",
         "runTime": "87 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "Do The Right Thing",
-        "directors": "Spike Lee",
+        "director": "Spike Lee",
         "releaseDate": "6/30/1989",
         "rated": "R",
         "runTime": "120 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Double Indemnity",
-        "directors": "Billy Wilder",
+        "director": "Billy Wilder",
         "releaseDate": "4/24/1944",
         "rated": "Passed",
         "runTime": "106 mins",
-        "genres": "Film noir"
+        "genre": "Film noir"
     },
     {
         "title": "Dr. Strangelove",
-        "directors": "Stanley Kubrick",
+        "director": "Stanley Kubrick",
         "releaseDate": "1/29/1964",
         "rated": "PG",
         "runTime": "102 mins",
-        "genres": "Black comedy"
+        "genre": "Black comedy"
     },
     {
         "title": "Duck Soup",
-        "directors": "Leo McCarey",
+        "director": "Leo McCarey",
         "releaseDate": "11/17/1933",
         "rated": "Not Rated",
         "runTime": "80 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "E.T",
-        "directors": "Steven Spielberg",
+        "director": "Steven Spielberg",
         "releaseDate": "6/11/1982",
         "rated": "PG",
         "runTime": "120 mins",
-        "genres": "Fantasy, Science fiction"
+        "genre": "Fantasy, Science fiction"
     },
     {
         "title": "Easy Rider",
-        "directors": "Dennis Hopper",
+        "director": "Dennis Hopper",
         "releaseDate": "7/14/1969",
         "rated": "R",
         "runTime": "95 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Forrest Gump",
-        "directors": "Robert Zemeckis",
+        "director": "Robert Zemeckis",
         "releaseDate": "7/6/1994",
         "rated": "PG-13",
         "runTime": "142 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "Gone With The Wind",
-        "directors": "Victor Fleming, Sam Wood, George Cukor, Chester Franklin, James Fitzpatrick",
+        "director": "Victor Fleming, Sam Wood, George Cukor, Chester Franklin, James Fitzpatrick",
         "releaseDate": "1/17/1940",
         "rated": "Passed",
         "runTime": "220 mins",
-        "genres": "Romance"
+        "genre": "Romance"
     },
     {
         "title": "Goodfellas",
-        "directors": "Martin Scorsese",
+        "director": "Martin Scorsese",
         "releaseDate": "9/19/1990",
         "rated": "R",
         "runTime": "146 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "High Noon",
-        "directors": "Fred Zinnemann",
+        "director": "Fred Zinnemann",
         "releaseDate": "7/30/1952",
         "rated": "PG",
         "runTime": "87 mins",
-        "genres": "Western"
+        "genre": "Western"
     },
     {
         "title": "In The Heat Of The Night",
-        "directors": "Norman Jewison",
+        "director": "Norman Jewison",
         "releaseDate": "8/2/1967",
         "rated": "Not Rated",
         "runTime": "110 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Intolerance",
-        "directors": "D. W. Griffith",
+        "director": "D. W. Griffith",
         "releaseDate": "9/5/1916",
         "rated": "Passed",
         "runTime": "197 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "It Happened One Night",
-        "directors": "Frank Capra",
+        "director": "Frank Capra",
         "releaseDate": "2/23/1934",
         "rated": "Not Rated",
         "runTime": "105 mins",
-        "genres": "Screwball comedy"
+        "genre": "Screwball comedy"
     },
     {
         "title": "It'S A Wonderful Life",
-        "directors": "Frank Capra",
+        "director": "Frank Capra",
         "releaseDate": "1/7/1947",
         "rated": "PG",
         "runTime": "132 mins",
-        "genres": "Comedy-drama, Fantasy"
+        "genre": "Comedy-drama, Fantasy"
     },
     {
         "title": "Jaws",
-        "directors": "Steven Spielberg",
+        "director": "Steven Spielberg",
         "releaseDate": "6/20/1975",
         "rated": "PG",
         "runTime": "124 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "King Kong",
-        "directors": "Merian C. Cooper, Ernest B. Schoedsack",
+        "director": "Merian C. Cooper, Ernest B. Schoedsack",
         "releaseDate": "4/7/1933",
         "rated": "Passed",
         "runTime": "110 mins",
-        "genres": "Adventure, Horror"
+        "genre": "Adventure, Horror"
     },
     {
         "title": "Lawrence Of Arabia",
-        "directors": "David Lean",
+        "director": "David Lean",
         "releaseDate": "12/16/1962",
         "rated": "Approved",
         "runTime": "180 mins",
-        "genres": "Adventure, Biography"
+        "genre": "Adventure, Biography"
     },
     {
         "title": "M*A*S*H",
-        "directors": "Robert Altman",
+        "director": "Robert Altman",
         "releaseDate": "3/1/1970",
         "rated": "R",
         "runTime": "116 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "Midnight Cowboy",
-        "directors": "John Schlesinger",
+        "director": "John Schlesinger",
         "releaseDate": "5/25/1969",
         "rated": "R",
         "runTime": "113 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Modern Times",
-        "directors": "Charles Chaplin",
+        "director": "Charles Chaplin",
         "releaseDate": "2/21/1936",
         "rated": "G",
         "runTime": "87 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "Mr. Smith Goes to Washington",
-        "directors": "Frank Capra",
+        "director": "Frank Capra",
         "releaseDate": "10/19/1939",
         "rated": "Not Rated",
         "runTime": "130 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "Nashville",
-        "directors": "Robert Altman",
+        "director": "Robert Altman",
         "releaseDate": "6/11/1975",
         "rated": "R",
         "runTime": "157 mins",
-        "genres": "Comedy-drama, Musical"
+        "genre": "Comedy-drama, Musical"
     },
     {
         "title": "Network",
-        "directors": "Sidney Lumet",
+        "director": "Sidney Lumet",
         "releaseDate": "11/14/1976",
         "rated": "R",
         "runTime": "121 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "North By Northwest",
-        "directors": "Alfred Hitchcock",
+        "director": "Alfred Hitchcock",
         "releaseDate": "9/26/1959",
         "rated": "Not Rated",
         "runTime": "136 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "On The Waterfront",
-        "directors": "Elia Kazan",
+        "director": "Elia Kazan",
         "releaseDate": "6/22/1954",
         "rated": "Not Rated",
         "runTime": "107 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "One Flew Over The Cuckoo's Nest",
-        "directors": "Milos Forman",
+        "director": "Milos Forman",
         "releaseDate": "11/19/1975",
         "rated": "R",
         "runTime": "133 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Platoon",
-        "directors": "Oliver Stone",
+        "director": "Oliver Stone",
         "releaseDate": "12/19/1986",
         "rated": "R",
         "runTime": "120 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Psycho",
-        "directors": "Alfred Hitchcock",
+        "director": "Alfred Hitchcock",
         "releaseDate": "9/8/1960",
         "rated": "R",
         "runTime": "108 mins",
-        "genres": "Horror, Mystery, Thriller"
+        "genre": "Horror, Mystery, Thriller"
     },
     {
         "title": "Pulp Fiction",
-        "directors": "Quentin Tarantino",
+        "director": "Quentin Tarantino",
         "releaseDate": "10/14/1994",
         "rated": "R",
         "runTime": "154 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "Raging Bull",
-        "directors": "Martin Scorsese",
+        "director": "Martin Scorsese",
         "releaseDate": "12/19/1980",
         "rated": "R",
         "runTime": "129 mins",
-        "genres": "Biography"
+        "genre": "Biography"
     },
     {
         "title": "Raiders Of The Lost Ark",
-        "directors": "Steven Spielberg",
+        "director": "Steven Spielberg",
         "releaseDate": "6/12/1981",
         "rated": "PG",
         "runTime": "115 mins",
-        "genres": "Adventure"
+        "genre": "Adventure"
     },
     {
         "title": "Rear Window",
-        "directors": "Alfred Hitchcock",
+        "director": "Alfred Hitchcock",
         "releaseDate": "9/1/1954",
         "rated": "PG",
         "runTime": "112 mins",
-        "genres": "Mystery"
+        "genre": "Mystery"
     },
     {
         "title": "Rocky",
-        "directors": "John G. Avildsen",
+        "director": "John G. Avildsen",
         "releaseDate": "12/3/1976",
         "rated": "PG",
         "runTime": "121 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Saving Private Ryan",
-        "directors": "Steven Spielberg",
+        "director": "Steven Spielberg",
         "releaseDate": "7/24/1998",
         "rated": "R",
         "runTime": "170 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Schindler's List",
-        "directors": "Steven Spielberg",
+        "director": "Steven Spielberg",
         "releaseDate": "12/15/1993",
         "rated": "R",
         "runTime": "185 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Shane",
-        "directors": "George Stevens",
+        "director": "George Stevens",
         "releaseDate": "8/1/1953",
         "Not Rated",
         "runTime": "118 mins",
-        "genres": "Western"
+        "genre": "Western"
     },
     {
         "title": "Singin' In The Rain",
-        "directors": "Gene Kelly,Stanley Donen",
+        "director": "Gene Kelly,Stanley Donen",
         "releaseDate": "4/11/1952",
         "rated": "G",
         "runTime": "103 mins",
-        "genres": "Musical comedy"
+        "genre": "Musical comedy"
     },
     {
         "title": "Snow White And The Seven Dwarfs",
-        "directors": "William Cottrell, David Hand, Wilfred Jackson, Larry Morey, Perce Pearce, Ben Sharpsteen",
+        "director": "William Cottrell, David Hand, Wilfred Jackson, Larry Morey, Perce Pearce, Ben Sharpsteen",
         "releaseDate": "2/4/1938",
         "rated": "G",
         "runTime": "86 mins",
-        "genres": "Musical"
+        "genre": "Musical"
     },
     {
         "title": "Some Like It Hot",
-        "directors": "Billy Wilder",
+        "director": "Billy Wilder",
         "releaseDate": "4/14/1959",
         "rated": "Not Rated",
         "runTime": "120 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "Sophie'S Choice",
-        "directors": "Alan J. Pakula",
+        "director": "Alan J. Pakula",
         "releaseDate": "12/10/1982",
         "rated": "R",
         "runTime": "157 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Spartacus",
-        "directors": "Stanley Kubrick,Anthony Mann",
+        "director": "Stanley Kubrick,Anthony Mann",
         "releaseDate": "11/17/1960",
         "rated": "PG-13",
         "runTime": "195 mins",
-        "genres": "Epic"
+        "genre": "Epic"
     },
     {
         "title": "Star Wars",
-        "directors": "George Lucas",
+        "director": "George Lucas",
         "releaseDate": "5/25/1977",
         "rated": "PG",
         "runTime": "123 mins",
-        "genres": "Adventure, Science fiction"
+        "genre": "Adventure, Science fiction"
     },
     {
         "title": "Sullivan's Travels",
-        "directors": "Preston Sturges",
+        "director": "Preston Sturges",
         "releaseDate": "2/6/1942",
         "rated": "Not Rated",
         "runTime": "91 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "Sunrise",
-        "directors": "F.W. Murnau",
+        "director": "F.W. Murnau",
         "releaseDate": "11/4/1927",
         "rated": "Passed",
         "runTime": "94 mins",
-        "genres": "Drama, Romance"
+        "genre": "Drama, Romance"
     },
     {
         "title": "Sunset Blvd",
-        "directors": "Billy Wilder",
+        "director": "Billy Wilder",
         "releaseDate": "9/29/1950",
         "rated": "Not Rated",
         "runTime": "115 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Swing Time",
-        "directors": "George Stevens",
+        "director": "George Stevens",
         "releaseDate": "9/4/1936",
         "rated": "Not Rated",
         "runTime": "103 mins",
-        "genres": "Musical, Romantic comedy"
+        "genre": "Musical, Romantic comedy"
     },
     {
         "title": "Taxi Driver",
-        "directors": "Martin Scorsese",
+        "director": "Martin Scorsese",
         "releaseDate": "2/7/1976",
         "rated": "R",
         "runTime": "112 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The African Queen",
-        "directors": "John Huston",
+        "director": "John Huston",
         "releaseDate": "3/21/1952",
         "rated": "PG",
         "runTime": "106 mins",
-        "genres": "Romance"
+        "genre": "Romance"
     },
     {
         "title": "The Apartment",
-        "directors": "Billy Wilder",
+        "director": "Billy Wilder",
         "releaseDate": "9/16/1960",
         "rated": "Not Rated",
         "runTime": "125 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "The Best Years Of Our Lives",
-        "directors": "William Wyler",
+        "director": "William Wyler",
         "releaseDate": "5/29/1947",
         "rated": "Approved",
         "runTime": "172 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Bridge On The River Kwai",
-        "directors": "David Lean",
+        "director": "David Lean",
         "releaseDate": "12/14/1957",
         "rated": "PG",
         "runTime": "161 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Deer Hunter",
-        "directors": "Michael Cimino",
+        "director": "Michael Cimino",
         "releaseDate": "12/8/1978",
         "rated": "R",
         "runTime": "183 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The French Connection",
-        "directors": "William Friedkin",
+        "director": "William Friedkin",
         "releaseDate": "10/1/1971",
         "rated": "R",
         "runTime": "104 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The General",
-        "directors": "Buster Keaton, Clyde Bruckman",
+        "director": "Buster Keaton, Clyde Bruckman",
         "releaseDate": "2/5/1927",
         "rated": "Passed",
         "runTime": "77 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "The Godfather",
-        "directors": "Francis Ford Coppola",
+        "director": "Francis Ford Coppola",
         "releaseDate": "3/24/1972",
         "rated": "R",
         "runTime": "177 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Godfather Part Ii",
-        "directors": "Francis Ford Coppola",
+        "director": "Francis Ford Coppola",
         "releaseDate": "12/20/1974",
         "rated": "R",
         "runTime": "200 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Gold Rush",
-        "directors": "Charles Chaplin",
+        "director": "Charles Chaplin",
         "releaseDate": "8/16/1925",
         "rated": "Not Rated",
         "runTime": "74 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "The Graduate",
-        "directors": "Mike Nichols",
+        "director": "Mike Nichols",
         "releaseDate": "12/21/1967",
         "rated": "PG",
         "runTime": "105 mins",
-        "genres": "Comedy-drama"
+        "genre": "Comedy-drama"
     },
     {
         "title": "The Grapes Of Wrath",
-        "directors": "John Ford",
+        "director": "John Ford",
         "releaseDate": "3/15/1940",
         "rated": "Passed",
         "runTime": "129 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Last Picture Show",
-        "directors": "Peter Bogdanovich",
+        "director": "Peter Bogdanovich",
         "releaseDate": "10/1/1971",
         "rated": "R",
         "runTime": "118 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Lord Of The Rings: The Fellowship Of The Ring",
-        "directors": "Peter Jackson",
+        "director": "Peter Jackson",
         "releaseDate": "12/19/2001",
         "rated": "PG-13",
         "runTime": "178 mins",
-        "genres": "Adventure, Drama, Fantasy"
+        "genre": "Adventure, Drama, Fantasy"
     },
     {
         "title": "The Maltese Falcon",
-        "directors": "John Huston",
+        "director": "John Huston",
         "releaseDate": "10/18/1941",
         "rated": "Not Rated",
         "runTime": "100 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Philadelphia Story",
-        "directors": "George Cukor",
+        "director": "George Cukor",
         "releaseDate": "1/17/1941",
         "rated": "Not Rated",
         "runTime": "112 mins",
-        "genres": "Romantic comedy"
+        "genre": "Romantic comedy"
     },
     {
         "title": "The Searchers",
-        "directors": "John Ford",
+        "director": "John Ford",
         "releaseDate": "5/26/1956",
         "rated": "Passed",
         "runTime": "119 mins",
-        "genres": "Western"
+        "genre": "Western"
     },
     {
         "title": "The Shawshank Redemption",
-        "directors": "Frank Darabont",
+        "director": "Frank Darabont",
         "releaseDate": "10/14/1994",
         "rated": "R",
         "runTime": "142 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Silence Of The Lambs",
-        "directors": "Jonathan Demme",
+        "director": "Jonathan Demme",
         "releaseDate": "2/14/1991",
         "rated": "R",
         "runTime": "120 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "The Sixth Sense",
-        "directors": "M. Night Shyamalan",
+        "director": "M. Night Shyamalan",
         "releaseDate": "8/6/1999",
         "rated": "PG-13",
         "runTime": "107 mins",
-        "genres": "Drama, Mystery, Thriller "
+        "genre": "Drama, Mystery, Thriller "
     },
     {
         "title": "The Sound Of Music",
-        "directors": "Robert Wise",
+        "director": "Robert Wise",
         "releaseDate": "4/1/1965",
         "rated": "G",
         "runTime": "175 mins",
-        "genres": "Musical, Drama"
+        "genre": "Musical, Drama"
     },
     {
         "title": "The Treasure Of The Sierra Madre",
-        "directors": "John Huston",
+        "director": "John Huston",
         "releaseDate": "1/24/1948",
         "rated": "Passed",
         "runTime": "128 mins",
-        "genres": "Drama, Adventure"
+        "genre": "Drama, Adventure"
     },
     {
         "title": "The Wild Bunch",
-        "directors": "Sam Peckinpah",
+        "director": "Sam Peckinpah",
         "releaseDate": "6/18/1969",
         "rated": "R",
         "runTime": "135 mins",
-        "genres": "Western"
+        "genre": "Western"
     },
     {
         "title": "The Wizard Of Oz",
-        "directors": "Victor Fleming, King Vidor",
+        "director": "Victor Fleming, King Vidor",
         "releaseDate": "8/25/1939",
         "rated": "PG",
         "runTime": "101 mins",
-        "genres": "Fantasy, Musical"
+        "genre": "Fantasy, Musical"
     },
     {
         "title": "Titanic",
-        "directors": "James Cameron",
+        "director": "James Cameron",
         "releaseDate": "12/19/1997",
         "rated": "PG-13",
         "runTime": "197 mins",
-        "genres": "Drama, Romance"
+        "genre": "Drama, Romance"
     },
     {
         "title": "To Kill A Mockingbird",
-        "directors": "Robert Mulligan",
+        "director": "Robert Mulligan",
         "releaseDate": "12/25/1962",
         "rated": "Not Rated",
         "runTime": "129 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Tootsie",
-        "directors": "Sydney Pollack",
+        "director": "Sydney Pollack",
         "releaseDate": "12/17/1982",
         "rated": "PG",
         "runTime": "116 mins",
-        "genres": "Comedy-drama, Romance"
+        "genre": "Comedy-drama, Romance"
     },
     {
         "title": "Toy Story",
-        "directors": "John Lasseter",
+        "director": "John Lasseter",
         "releaseDate": "11/22/1995",
         "rated": "G",
         "runTime": "81 mins",
-        "genres": "Comedy"
+        "genre": "Comedy"
     },
     {
         "title": "Unforgiven",
-        "directors": "Clint Eastwood",
+        "director": "Clint Eastwood",
         "releaseDate": "8/7/1992",
         "rated": "R",
         "runTime": "130 mins",
-        "genres": "Western"
+        "genre": "Western"
     },
     {
         "title": "Vertigo",
-        "directors": "Alfred Hitchcock",
+        "director": "Alfred Hitchcock",
         "releaseDate": "5/28/1958",
         "rated": "PG",
         "runTime": "120 mins",
-        "genres": "Romance"
+        "genre": "Romance"
     },
     {
         "title": "West Side Story",
-        "directors": "Robert Wise, Jerome Robbins",
+        "director": "Robert Wise, Jerome Robbins",
         "releaseDate": "12/23/1961",
         "rated": "Not Rated",
         "runTime": "155 mins",
-        "genres": "Drama, Musical"
+        "genre": "Drama, Musical"
     },
     {
         "title": "Who's Afraid Of Virginia Woolf?",
-        "directors": "Mike Nichols",
+        "director": "Mike Nichols",
         "releaseDate": "6/22/1966",
         "rated": "Not Rated",
         "runTime": "131 mins",
-        "genres": "Drama"
+        "genre": "Drama"
     },
     {
         "title": "Yankee Doodle Dandy",
-        "directors": "Michael Curtiz",
+        "director": "Michael Curtiz",
         "releaseDate": "1/2/1943",
         "rated": "Passed",
         "runTime": "126 mins",
-        "genres": "Biography, Musical"
+        "genre": "Biography, Musical"
     },
 ]

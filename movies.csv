@@ -1,4 +1,4 @@
-"Title", "Directors", "Release Date", "Rating", "Run Time", "Genres"
+"Title", "director", "Release Date", "Rating", "Run Time", "genre"
 "12 Angry Men", "Sidney Lumet", "4/10/1957", "Not Rated", "95 mins", "Drama"
 "2001: A Space Odyssey", "Stanley Kubrick", "4/3/1968", "G", "140 mins", "Science fiction"
 "A Clockwork Orange", "Stanley Kubrick", "12/19/1971", "R", "137 mins", "Drama, Fantasy"

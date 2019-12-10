@@ -19,17 +19,7 @@ const director = directorModel(connection, Sequelize)
 const genre = genreModel(connection, Sequelize)
 const movie_director = movie_directorModel(connection, Sequelize)
 const movie_genre = movie_genreModel(connection, Sequelize)
-/*
-movie_director.associate = (models) => {
-    movie_director.belongsTo(models.movie, { foreignKey: 'movieId', targetKey: 'id', as: 'movie' });
-    movie_director.belongsTo(models.director, { foreignKey: 'directorId', targetKey: 'id', as: 'director' });
-}
 
-movie_genre.associate = (models) => {
-    movie_genre.belongsTo(models.movie, { foreignKey: 'movieId', targetKey: 'id', as: 'movie' });
-    movie_genre.belongsTo(models.genre, { foreignKey: 'genreId', targetKey: 'id', as: 'genre' });
-}
-*/
 
 movie.belongsToMany(director, {
     through: 'movie_director',
