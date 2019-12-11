@@ -1,0 +1,36 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "In the initial commit to this project, you have been provided with a CSV file that contains data on the American Film Institute's (AFI) Top 100 movie. Your task is to create a database backed Express API for access the details of these films.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run migrate:dev && npm run server:dev",
+    "migrate:dev": "./node_modules/.bin/sequelize db:migrate --env development --config ./config/sequelize.js",
+    "migrate:dev:down": "./node_modules/.bin/sequelize db:migrate:undo --env development --config ./config/sequelize.js",
+    "server:dev": "./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonukhot/movie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonukhot/movie-api/issues"
+  },
+  "homepage": "https://github.com/sonukhot/movie-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "nodemon": "^1.19.4"
+  }
+}
